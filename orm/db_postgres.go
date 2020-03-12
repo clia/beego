@@ -94,7 +94,8 @@ func (d *dbBasePostgres) MaxLimit() uint64 {
 
 // postgresql quote is ".
 func (d *dbBasePostgres) TableQuote() string {
-	return `"`
+	// return `"`
+	return ``
 }
 
 // postgresql value placeholder is $n.
